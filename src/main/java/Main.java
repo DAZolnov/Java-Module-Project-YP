@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Привет, на какое количество людей поделим счет?\nПожалуйста, введите целое число больше 1");
         Scanner scanner = new Scanner(System.in);
         int amountOfPeople;
-        while(true) {
+        while (true) {
             if (scanner.hasNextInt()) {
                 amountOfPeople = scanner.nextInt();
                 if (amountOfPeople > 1) {
@@ -22,7 +22,6 @@ public class Main {
                 System.out.println("Неверный ввод данных. Пожалуйста, введите ЦЕЛОЕ число больше 1");
             }
         }
-
 
 
         Product product = new Product("", 0);

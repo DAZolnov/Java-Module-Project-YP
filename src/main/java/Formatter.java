@@ -18,7 +18,7 @@ public class Formatter {
         } else {
             switch (nearestInt % 10) {
                 case 1: {
-                    correctRuble = "рубль";
+                    correctRuble = "рублю";
                     break;
                 }
                 case 2, 3, 4: {
